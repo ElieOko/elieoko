@@ -1,4 +1,5 @@
 import AboutComponent from "./about";
+import ParcoursComponent from "./parcours";
 import ProfilComponent from "./profil";
 
 export default function HomeComponent(){
@@ -6,6 +7,7 @@ export default function HomeComponent(){
         <>
             <ProfilComponent/>
             <AboutComponent/>
+            <ParcoursComponent/>
         </>
     )
 }
